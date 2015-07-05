@@ -1,0 +1,426 @@
+@charset "utf-8";
+/*Easy Stats CSS*/
+
+.sam-settings {
+  margin: 20px 0;
+}
+
+.sam-settings .option-box {
+  border-left: 4px solid #23282D;
+  border-right: 4px solid #23282D;
+  background: #e6e6e6;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+.sam-settings .option-box:hover {
+  background: #e6e6e6;
+  border-left: 4px solid #0073AA;
+  border-right: 4px solid #0073AA;
+}
+
+
+.sam-settings .option-box .option-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sam-settings .option-box .option-info {
+  color: #0073AA;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.sam-settings ul.tab-nav {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.sam-settings ul.tab-nav li {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  border-left: 1px solid rgb(199, 199, 199);
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 8px 15px;
+}
+
+.sam-settings ul.tab-nav li.active{
+	background:#d8d6d6;
+	border-top:2px solid #11b063;
+	padding-top:6px;
+	font-weight: bold;
+	}
+.sam-settings ul.box {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+.sam-settings ul.box li.tab-box {
+  border: 1px solid rgb(153, 153, 153);
+  display: none;
+  margin: 0;
+  width: 100%;
+}
+
+
+
+
+.sam-settings .new_user_profile_social {
+  margin: 15px 5px;
+}
+
+
+
+.sam-settings ul.voting-bg-img-list{}
+
+.sam-settings ul.voting-bg-img-list li {
+  display: inline-block;
+  margin: 5px;
+}
+.sam-settings ul.voting-bg-img-list li.bg-selected {}
+
+.sam-settings ul.voting-bg-img-list li img{border: 2px solid #ffffff;}
+
+.sam-settings ul.voting-bg-img-list li.bg-selected img{
+  border: 2px solid #ff5a11;
+}
+
+
+.sam-settings h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.sam-settings .pricing-table{
+
+}
+
+.sam-settings .pricing-table .column {
+  border-bottom: 1px solid #ff9601;
+  border-left: 1px solid #ff9601;
+  border-top: 1px solid #ff9601;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  vertical-align: top;
+  width: 48%;
+}
+
+.sam-settings .pricing-table .column:last-child {
+  border-right: 1px solid #ff9601;
+}
+
+.sam-settings .paln {
+
+  border-bottom: 1px solid rgb(255, 150, 1);
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 10px 0;
+}
+.sam-settings .cell {
+  border-bottom: 1px solid rgb(255, 150, 1);
+  display: block;
+  line-height: 20px;
+  padding: 7px 0;
+}
+
+.sam-settings .hidden-mob {
+
+  display: none;
+
+}
+
+
+
+.sam-settings .green {
+  background: url("tik-mark.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+  display: inline-block;
+	padding-left: 25px;
+  line-height: 20px;
+
+}
+
+.sam-settings .red {
+  background: url("cross-mark.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+  display: inline-block;
+	padding-left: 25px;
+  line-height: 20px;
+
+}
+
+.sam-settings .price {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 25px 0;
+  border-bottom: 1px solid rgb(255, 150, 1);
+}
+
+
+.sam-settings .buy-now {
+  background: none repeat scroll 0 0 rgb(221, 221, 221);
+  border-bottom: 2px solid rgb(157, 157, 157);
+  border-radius: 12px;
+  padding: 2px 12px;
+  text-decoration: none;
+}
+
+.sam-settings .buy-now:hover {
+
+  border-bottom: 2px solid #706f6f;
+
+}
+
+
+
+.sam-settings .data-table {
+  border: 1px solid rgb(199, 199, 199);
+  border-collapse: collapse;
+}
+
+.sam-settings .data-table tr {
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+
+.sam-settings .data-table th {
+  border-bottom: 2px solid rgb(253, 197, 28);
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+}
+
+
+.sam-settings .data-table td {
+  border-bottom: 1px solid rgb(199, 199, 199);
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+}
+
+.sam-settings .button {
+  margin: 20px 0;
+}
+
+.sam-settings .success {
+  background: none repeat scroll 0 0 rgb(105, 221, 157);
+  padding: 5px 10px;
+  display:none;
+}
+.sam-settings .sam-form-table {
+
+  border-collapse: collapse;
+}
+
+.sam-settings .sam-form-table tr {
+
+}
+
+
+.sam-settings .sam-form-table th {
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+  text-align: left;
+  vertical-align: top;
+  width: 200px;
+}
+
+.sam-settings .sam-form-table td {
+
+  border-collapse: collapse;
+  padding: 10px 20px 10px 8px;
+}
+
+.sam-settings pre {
+
+}
+
+/*Menu*/
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #23282d;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #23282d;
+	box-shadow:inset 0px 1px 0px 0px #23282d;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0074aa), color-stop(1, #0074aa));
+	background:-moz-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:-webkit-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:-o-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:-ms-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:linear-gradient(to bottom, #0074aa 5%, #0074aa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0074aa', endColorstr='#0074aa',GradientType=0);
+	background-color:#0074aa;
+	border:1px solid #23282d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #23282d;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0074aa), color-stop(1, #0074aa));
+	background:-moz-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:-webkit-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:-o-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:-ms-linear-gradient(top, #0074aa 5%, #0074aa 100%);
+	background:linear-gradient(to bottom, #0074aa 5%, #0074aa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0074aa', endColorstr='#0074aa',GradientType=0);
+	background-color:#0074aa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*Dashboard*/
+
+.sam-dashboard {
+  background: none repeat scroll 0 0 rgb(241, 241, 241);
+  padding: 5px;
+}
+
+.sam-dashboard .dash-cg {
+  background: none repeat scroll 0 0 rgb(35, 40, 45);
+  border: 1px solid rgb(122, 170, 223);
+  display: inline-block;
+  height: auto;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-top: 0;
+  overflow: hidden;
+  padding-bottom: 10px;
+  vertical-align: top;
+  width: 98%;
+  color: white;
+  font-size: 20px;
+}
+
+.sam-dashboard .dash-box {
+  background: none repeat scroll 0 0 rgb(35, 40, 45);
+  border: 1px solid rgb(122, 170, 223);
+  display: inline-block;
+  height: auto;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-top: 0;
+  overflow: hidden;
+  padding-bottom: 30px;
+  vertical-align: top;
+  width: 361px;
+}
+
+.sam-dashboard .dash-box-title {
+  background: none repeat scroll 0 0 rgb(0, 115, 170);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.sam-dashboard .dash-box-title .fa {
+  padding-right: 10px;
+}
+
+.sam-dashboard .dash-box-info {
+  color: rgb(238, 238, 238);
+  font-size: 12px;
+  padding: 10px;
+}
+
+.sam-dashboard .dash-box .total-online {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding: 13px 10px 10px;
+  text-align: center;
+}
+
+.sam-dashboard .dash-box .total-session {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding: 30px 10px 10px;
+  text-align: center;
+}
+
+.sam-dashboard .dash-box .unique-visitor {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding: 30px 10px 10px;
+  text-align: center;
+}
+
+
+
+
+
+.sam-dashboard .dash-box .sam-data-table {
+  border: 1px solid rgb(221, 221, 221);
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.sam-dashboard .dash-box .sam-data-table th {
+  padding: 7px;
+}
+.sam-dashboard .dash-box tr {
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.sam-dashboard .dash-box .sam-data-table td {
+  padding: 5px;
+}
+
+.sam-dashboard .dash-box .sam-data-table a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+@media all and (max-width: 799px) {
+	
+	
+	
+	
+	
+	
+	
+	
+	.sam-settings ul.tab-nav li {
+	  display: block;
+	  float: none;
+	
+	}
+	
+	.sam-settings ul.tab-nav li.active{
+		font-weight: bold;
+		}	
+	
+
+
+
+
+	.sam-settings .pricing-table .column {
+		display:block;
+		float:none;
+		width:100%;
+		border-right: 1px solid #0073AA;
+		margin: 50px 0;
+	
+	}
+
+
+
+
+
+	
+}
