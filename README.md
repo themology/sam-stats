@@ -51,3 +51,15 @@ Statistics Filter:
  
 
 NOTE: Please report Bug, provide solution for Bug and also please contribute on this plugin.
+
+
+Sources and Credits
+
+For the creation of Sam Stats we've used the following:
+
+Google Maps - http://www.maps.google.com/
+Browser.php - http://chrisschuld.com/
+jQuery UI - http://jqueryui.com/
+PHP Geo Plugin - http://www.geoplugin.com/
+
+Al these files have been properly licensed under the terms of the licenses provided by their respective owners.
