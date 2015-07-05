@@ -4,7 +4,7 @@ This tool provides a user friendly dasheboard that helps you to monitor the impo
 
 Probavly the number one most completed, All in all Hassle Free plugin for WordPress.
 
-Powerful Dashboard:
+###Powerful Dashboard:
 
 * Realtime Visitors counter
 * Total Page Views
@@ -21,7 +21,7 @@ Powerful Dashboard:
 * and Refresh Statistics feature
 
 
-All Visitors List:
+###All Visitors List:
 
 * Visited Page
 * User Avatar
@@ -34,7 +34,7 @@ All Visitors List:
 * Unique or not
 * Landing number
 
-Statistics Filter:
+###Statistics Filter:
 
 * Filter for URL
 * Users
@@ -53,13 +53,13 @@ Statistics Filter:
 NOTE: Please report Bug, provide solution for Bug and also please contribute on this plugin.
 
 
-Sources and Credits
+###Sources and Credits
 
 For the creation of Sam Stats we've used the following:
 
-Google Maps - http://www.maps.google.com/
-Browser.php - http://chrisschuld.com/
-jQuery UI - http://jqueryui.com/
-PHP Geo Plugin - http://www.geoplugin.com/
+* Google Maps - http://www.maps.google.com/
+* Browser.php - http://chrisschuld.com/
+* jQuery UI - http://jqueryui.com/
+* PHP Geo Plugin - http://www.geoplugin.com/
 
 Al these files have been properly licensed under the terms of the licenses provided by their respective owners.
